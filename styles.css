@@ -255,9 +255,18 @@ h2.light, .light { color: #fff; }
 .booking-wrap {
   background: #fff; border-radius: 22px;
   box-shadow: var(--shadow); overflow: hidden; padding: 0.7rem;
-  border: 1px solid var(--line);
+  border: 1.5px solid var(--blush-deep);
+  position: relative;
 }
-.booking-frame { width: 100%; min-height: 720px; border: none; border-radius: 14px; display: block; }
+.booking-wrap::before {
+  content: "♡";
+  position: absolute; top: 1.1rem; right: 1.6rem; z-index: 2;
+  color: var(--rose-soft); font-size: 1.4rem; pointer-events: none;
+}
+.booking-frame {
+  width: 100%; min-height: 720px; border: none; border-radius: 14px; display: block;
+  filter: hue-rotate(145deg) saturate(0.72);
+}
 
 /* ---------- investing (forest) ---------- */
 .section-forest {
