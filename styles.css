@@ -25,6 +25,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
 
 body {
   font-family: var(--font-body);
@@ -335,7 +336,7 @@ h2.light, .light { color: #fff; }
 }
 .contact-icon svg { width: 24px; height: 24px; }
 .contact-label { display: block; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--muted); font-weight: 500; }
-.contact-value { display: block; font-size: 1.15rem; font-weight: 500; color: var(--ink); }
+.contact-value { display: block; font-size: 1.15rem; font-weight: 500; color: var(--ink); overflow-wrap: break-word; word-break: break-word; }
 
 /* ---------- footer ---------- */
 .footer { background: var(--ink); color: rgba(251,247,240,0.72); padding: 3.2rem 0 2.2rem; }
@@ -352,7 +353,7 @@ h2.light, .light { color: #fff; }
   .hero-sub { margin-left: auto; margin-right: auto; }
   .hero-ctas { justify-content: center; }
   .hero-art { order: -1; }
-  .arch { max-width: 300px; }
+  .arch { max-width: 230px; }
   .cards, .invest-grid, .steps { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { max-width: 300px; margin: 0 auto; }
