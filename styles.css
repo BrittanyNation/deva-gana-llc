@@ -237,6 +237,7 @@ h2.light, .light { color: #fff; }
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   text-align: center; padding: 2rem;
 }
+.banner-overlay .script-accent { color: #ffffff; text-shadow: 0 2px 14px rgba(0,0,0,0.45); }
 .banner-quote {
   font-family: var(--font-serif); font-style: italic;
   font-size: clamp(1.8rem, 4vw, 3rem); color: #fff;
