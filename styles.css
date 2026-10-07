@@ -217,6 +217,7 @@ h2.light, .light { color: #fff; }
 .price-list li { position: relative; padding: 0.35rem 0 0.35rem 1.6rem; color: var(--muted); font-weight: 300; }
 .price-list li:before { content: "\2661"; position: absolute; left: 0; color: var(--rose); font-weight: 700; }
 .pricing-note { max-width: 640px; margin: 2.5rem auto 2rem; color: var(--muted); font-weight: 300; }
+.pricing-single { max-width: 480px; margin: 0 auto; }
 
 .pill-row { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 3rem; }
 .pill {
