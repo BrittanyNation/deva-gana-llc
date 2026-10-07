@@ -223,7 +223,7 @@ h2.light, .light { color: #fff; }
 
 /* ---------- banner ---------- */
 .banner { position: relative; overflow: hidden; background: #f7e9ec; }
-.banner img { width: 100%; height: auto; max-height: 74vh; object-fit: contain; display: block; }
+.banner img { width: 100%; height: auto; display: block; }
 .banner-overlay {
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(34,29,24,0.25), rgba(34,29,24,0.55));
