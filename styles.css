@@ -159,7 +159,7 @@ h2.light, .light { color: #fff; }
 .hero-inner-center { display: block; text-align: center; max-width: 880px; }
 .hero-inner-center .hero-sub { margin-left: auto; margin-right: auto; }
 .hero-inner-center .hero-ctas { justify-content: center; }
-.hero-showcase { margin: 3rem auto 0; max-width: 680px; padding: 0 1.5rem; }
+.hero-showcase { margin: 3rem auto 0; max-width: 480px; padding: 0 1.5rem; }
 .hero-showcase img { width: 100%; height: auto; display: block; border-radius: 28px; box-shadow: var(--shadow); }
 
 .arch {
